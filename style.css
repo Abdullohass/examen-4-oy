@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.ota1 {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding-top: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.menu li a:hover {
+    color: #DE2E54;
+}
+
+button {
+    border: 3px solid #DE2E54;
+    color: #DE2E54;
+    padding: 5px 10px;
+    border-radius: 7px;
+    /* background-color: inherit; */
+}
+
+button:hover {
+    color: white;
+    background-color: #DE2E54CC;
+}
+
+.img {
+
+    background-image: url(./img/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+h1 {
+    color: white;
+}
+
+.ota2 button {
+    margin-top: 30px;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.ota4 {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-left: 100px;
+    padding-bottom: 90px;
+}
+
+.ogil3 h4 {
+    padding-bottom: 20px;
+}
+
+.hh {
+    color: black;
+    text-align: center;
+    padding: 70px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 77.45px;
+}
+
+iframe {
+    width: 513px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.inputs {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+input:active {
+    color: black;
+}
+
+.scn {
+    background-color: #0EB4C1;
+    padding-bottom: 100px;
+}
+
+.ota5 {
+    display: flex;
+    gap: 70px;
+}
+
+.btn {
+    color: white;
+    background-color: #38CC8B;
+    width: 410px;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.ota6 {
+    display: flex;
+    align-items: center;
+    gap: 800px;
+}
+
+.menus li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.menus {
+    display: flex;
+    gap: 30px;
+}
+.menus li a:hover {
+    color: #DE2E54;
+}
